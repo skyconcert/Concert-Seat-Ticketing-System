@@ -1,0 +1,1 @@
+ <td width="80"><a href="deleteseat.php?seat_no='.$row['seat_no'].'"><img src="images/delete.jpg" width="23" height="23"></a></td>

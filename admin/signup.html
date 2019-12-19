@@ -1,0 +1,91 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Minimal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<script src="js/jquery.min.js"> </script>
+<script src="js/bootstrap.min.js"> </script>
+</head>
+
+<body>
+
+	<form name="form1" method="POST" action="signup.php" onSubmit="return addFunction()">
+	<div class="login">
+		<h1><a href="">ADMIN & STAFF<img src="images/r5.png" alt="ADMIN" class="ADMIN" width="110" height="110"></a></h1>
+		<div class="login-bottom">
+			<h2>Register</h2>
+			<div class="col-md-6">
+				<div class="login-mail">
+					<input type="text" placeholder="ID" id="aid" name="aid"  required="">
+					<i class="fa fa-key"></i>
+				</div>
+				<div class="login-mail">
+					<input type="text" placeholder="Name" id="name" name="name"  required="">
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="login-mail">
+					<input type="text" placeholder="Phone" id="phone" name="phone"  required="">
+					<i class="fa fa-phone"></i>
+				</div>
+				<div class="login-mail">
+					<select  name="userlevel" id="userlevel">
+						<option face="Tw Cen Mt" value="" disabled selected ><b>-User Level-</b></option>
+						<option value="Admin">Admin</option>
+						<option value="Staff">Staff</option>
+					</select>
+					<i class="fa fa-tag"></i>
+				</div>
+				<div class="login-mail">
+					<input type="password" placeholder="Password" id="password" name="password" required="">
+					<i class="fa fa-lock"></i>
+				</div>
+				  <a class="news-letter" href="#">
+						 <label class="checkbox1"><input type="checkbox" name="checkbox" ><i> </i>I agree with the terms</label>
+					   </a>
+	
+			</div>
+			<div class="col-md-6 login-do">
+				<label class="hvr-shutter-in-horizontal login-sub">
+					<input type="submit" name="signup" value="Submit">
+					</label>
+					<p>Back to Main Page</p>
+				<a href="index.php" class="hvr-shutter-in-horizontal">Back</a>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+	</form>
+<!---->
+<div class="copy-right">
+			<p> Concert Ticketing System by <a href="" target="_blank">SKYCONCERT</a></p>
+			</div>
+	  
+<!---->
+<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	  <script>
+		
+	function addFunction() {
+	
+	var r = confirm("Are you sure you want to add?");
+    if (r) {
+   return true;}
+	else
+	{return false;}
+}
+  </script>
+</body>
+</html>
+
